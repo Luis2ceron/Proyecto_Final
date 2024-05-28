@@ -13,8 +13,8 @@ DEBUG = True
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'restaura.azurewebsites.net']
-CSRF_TRUSTED_ORIGINS = ['https://restaura.azurewebsites.net']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'madeinheavenshop.azurewebsites.net']
+CSRF_TRUSTED_ORIGINS = ['madeinheavenshop.azurewebsites.net']
 
 # Application definition
 
@@ -63,10 +63,10 @@ WSGI_APPLICATION = 'tienda.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'electiva2',
-        'USER': 'Cardenas',
-        'PASSWORD': 'Gemelos30',
-        'HOST': 'electiva2.postgres.database.azure.com',
+        'NAME': 'mih-server',
+        'USER': 'luisceron',
+        'PASSWORD': 'Jajandro#1',
+        'HOST': 'madeinheavenshop.azurewebsites.net',
         'PORT': '5432',
     }
 }
