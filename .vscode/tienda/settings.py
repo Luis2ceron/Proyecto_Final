@@ -13,8 +13,8 @@ DEBUG = True
 CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'madeinheavenshop.azurewebsites.net']
-CSRF_TRUSTED_ORIGINS = ['madeinheavenshop.azurewebsites.net']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'https://madeinheavenshop.azurewebsites.net/']
+CSRF_TRUSTED_ORIGINS = ['https://madeinheavenshop.azurewebsites.net/']
 
 # Application definition
 
